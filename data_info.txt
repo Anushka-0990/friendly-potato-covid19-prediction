@@ -1,0 +1,15 @@
+Dataset: COVID-19 Global Cases Time Series (Johns Hopkins)
+Source: https://www.kaggle.com/datasets/imdevskp/covid-19-in-india
+File Used: covid_19_india.csv
+
+Columns:
+- Date
+- State/UnionTerritory
+- Confirmed
+- Cured
+- Deaths
+
+Instructions:
+- Download the CSV from Kaggle
+- Filter data for a specific state or national total
+- Place the file inside a /data folder
