@@ -1,0 +1,64 @@
+🦠 COVID-19 Case Prediction using Machine Learning
+
+📌 Overview
+
+This project forecasts the number of daily confirmed COVID-19 cases using regression models based on historical pandemic data. It applies machine learning to analyze case trends and predict future case counts for the next few days.
+
+We use the dataset provided by the Indian government, available on Kaggle. The project filters and cleans the data, then trains regression models like Linear Regression and Random Forest Regressor to predict future confirmed cases.
+
+📁 Dataset
+
+- Dataset: COVID-19 India Dataset (Kaggle)
+- Source: https://www.kaggle.com/datasets/imdevskp/covid-19-in-india
+- File: covid_19_india.csv
+- Columns: Date, Confirmed, Cured, Deaths
+
+🧠 ML Models Used
+
+- Linear Regression
+- Random Forest Regressor
+
+📊 Features
+
+- Preprocess time-series COVID-19 data
+- Use lag features to predict future confirmed cases
+- Train/test split and accuracy comparison
+- Plot actual vs predicted case counts
+
+🛠️ Tech Stack
+
+- Python 3.x
+- Libraries: pandas, numpy, matplotlib, scikit-learn
+
+📂 Folder Structure
+
+covid19-prediction/
+├── main_notebook.ipynb
+├── README.txt
+├── requirements.txt
+└── data/
+
+🚀 How to Run
+
+1. Download the dataset and place it inside `data/`
+2. Install required libraries:
+   pip install -r requirements.txt
+3. Open `main_notebook.ipynb` and run all cells
+
+🧯 Troubleshooting
+
+❗ FileNotFoundError
+✔️ Ensure the file name and location are correct (`/data/covid_19_india.csv`)
+
+❗ Prediction is flat or off
+✔️ Try using longer training windows or Random Forest
+
+❗ No module found
+✔️ Use: pip install pandas matplotlib scikit-learn
+
+📌 Output
+
+- Line graph comparing predicted vs actual COVID-19 cases
+- Accuracy shown via R² score
+
+✍️ Created by Tushar for Anushka’s ML GitHub Portfolio 😷📈
